@@ -1,6 +1,5 @@
 {
     "scripts": {
-        "cy:run": "node cypress/scripts/cypress.js",
         "test": "./node_modules/.bin/cypress open",
         "cypress:runChromeHeadless": "cypress run --spec cypress/integration/*.spec.js"
     },
