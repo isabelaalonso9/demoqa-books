@@ -1,6 +1,8 @@
 require("cypress-xpath");
 const {faker} = require('@faker-js/faker');
 
+describe('Register', () => {
+
     it('Create an account with randomized data and verify the recaptcher error.', () => {
         
         cy.viewport(1920, 1080)
@@ -19,4 +21,4 @@ const {faker} = require('@faker-js/faker');
         cy.get('#name').should('have.text', 'Please verify reCaptcha to register!')
 
     });
-
+});
