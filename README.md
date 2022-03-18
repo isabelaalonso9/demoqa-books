@@ -95,4 +95,4 @@ npm run test
 --- 
 ## How to access report? 
 ---
-### After the tests are done, access on the project called cypress/report and click on index.html.
+### After the tests are done, access on the project called cypress/report and click on index.html by Windows Explorer.
