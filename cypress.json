@@ -1,1 +1,9 @@
-{}
+{
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "DemoQA Books Tests Report",
+        "embeddedScreenshots": true
+    }
+}
