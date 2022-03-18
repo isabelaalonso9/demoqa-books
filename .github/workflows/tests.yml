@@ -19,7 +19,7 @@ jobs:
             $(npm bin)/cypress verify
       
       - name: Run Cypress tests
-        run: npm run cypress:runChromeHeadles
+        run: npm run cypress:runChromeHeadless
         continue-on-error: true
         
       - name: Copy test execution videos and screenshots
