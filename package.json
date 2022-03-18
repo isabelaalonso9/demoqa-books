@@ -1,14 +1,17 @@
 {
     "scripts": {
-        "start": "cd trelloapp && npm start",
-        "cy:run": "cypress run",
-        "createUser": "node cypress/signupUser.js"
+        "cy:run": "node cypress/scripts/cypress.js",
+        "test": "./node_modules/.bin/cypress open",
+        "cypress:runChromeHeadless": "cypress run --spec cypress/integration/*.spec.js"
     },
     "devDependencies": {
         "@faker-js/faker": "^6.0.0",
         "cypress": "^9.5.2",
         "cypress-each": "^1.11.0",
-        "cypress-xpath": "^1.6.2"
+        "cypress-multi-reporters": "^1.5.0",
+        "cypress-xpath": "^1.6.2",
+        "mochawesome": "^7.1.2",
+        "mochawesome-report-generator": "^6.1.1"
     },
     "dependencies": {}
 }
