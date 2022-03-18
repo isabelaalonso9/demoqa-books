@@ -1,6 +1,6 @@
 require("cypress-xpath");
 
-describe('Using the following user, add at least 3 books, check them and remove the second book in the list, checking them again.', () => {
+describe('Remove all books in the end of tests', () => {
 
     beforeEach(() => {    
         cy.viewport(1920, 1080)
@@ -16,7 +16,7 @@ describe('Using the following user, add at least 3 books, check them and remove 
         cy.get(':nth-child(1) > .rt-tr > [style="flex: 70 0 auto; width: 70px; max-width: 70px;"] > .action-buttons > #delete-record-undefined > svg').click()
         cy.get('#example-modal-sizes-title-sm').should('have.text', 'Delete Book')
         cy.xpath('//*[@id="closeSmallModal-ok"]').click({force:true})
-        cy.get(':nth-child(2) > .rt-tr > [style="flex: 70 0 auto; width: 70px; max-width: 70px;"] > .action-buttons > #delete-record-undefined > svg').click()
+        cy.get(':nth-child(1) > .rt-tr > [style="flex: 70 0 auto; width: 70px; max-width: 70px;"] > .action-buttons > #delete-record-undefined > svg').click()
         cy.get('#example-modal-sizes-title-sm').should('have.text', 'Delete Book')
         cy.xpath('//*[@id="closeSmallModal-ok"]').click({force:true})
     });
