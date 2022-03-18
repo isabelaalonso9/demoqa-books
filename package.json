@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "cd trelloapp && npm start",
+        "cy:run": "cypress run",
+        "createUser": "node cypress/signupUser.js"
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^6.0.0",
+        "cypress": "^9.5.2",
+        "cypress-each": "^1.11.0",
+        "cypress-xpath": "^1.6.2"
+    },
+    "dependencies": {}
+}
