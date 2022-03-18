@@ -64,10 +64,21 @@ git clone "https://github.com/isabelaalonso9/demoqa-books.git"
 
 ### After that, open the project on [Visual Studio Code](https://code.visualstudio.com/download).
 
+### Install NPM:
+```
+npm install
+```
+
 ### Install Cypress to run the project:
 ```
-npm install cypres --save-dev
+npm install cypress --save-dev
 ```
+
+### Install Mochawesome to build the report:
+```
+npm install cypress-mochawesome-reporter
+```
+
 
 ### To execute the project on headless mode, open the Visual Studio Code Terminal and type the command:
 ```
@@ -84,4 +95,4 @@ npm run test
 --- 
 ## How to access report? 
 ---
-### After the tests are done, access the page on the project called 'report' and click on index.html.
+### After the tests are done, access on the project called cypress/report and click on index.html.
