@@ -66,7 +66,7 @@ git clone "https://github.com/isabelaalonso9/demoqa-books.git"
 
 ### To execute the project on headless mode, open the Visual Studio Code Terminal and type the command:
 ```
-npm run cypress:runChromeHeadles
+npm run cypress:runChromeHeadless
 ```
 
 ### Wait for the tests to be run. After that, you can see the results in the same terminal.
@@ -76,7 +76,6 @@ npm run cypress:runChromeHeadles
 npm run test
 ```
 ### Cypress will open a new Chrome page, and you can click on any file spec.js to execute the tests of that file. 
-
 --- 
 ## How to access report? 
 ---
