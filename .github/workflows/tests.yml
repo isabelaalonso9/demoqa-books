@@ -16,6 +16,7 @@ jobs:
       - name: Install cypress and verify
         run: |
             npm ci
+            npm install cypress-mochawesome-reporter
             $(npm bin)/cypress verify
       
       - name: Run Cypress tests
