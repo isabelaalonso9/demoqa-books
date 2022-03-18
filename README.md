@@ -64,6 +64,11 @@ git clone "https://github.com/isabelaalonso9/demoqa-books.git"
 
 ### After that, open the project on [Visual Studio Code](https://code.visualstudio.com/download).
 
+### Install Cypress to run the project:
+```
+npm install cypres --save-dev
+```
+
 ### To execute the project on headless mode, open the Visual Studio Code Terminal and type the command:
 ```
 npm run cypress:runChromeHeadless
