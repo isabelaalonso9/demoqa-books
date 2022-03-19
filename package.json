@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "test": "./node_modules/.bin/cypress open",
+        "test": "npx cypress open",
         "cypress:runChromeHeadless": "cypress run --spec cypress/integration/*.spec.js"
     },
     "devDependencies": {
